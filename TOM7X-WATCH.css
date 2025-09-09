@@ -1,0 +1,176 @@
+body {
+  background-color: black;
+  background-image: url('https://c.top4top.io/p_35387kq9o0.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: auto; /* Ubah 'scroll' menjadi 'auto' agar scrollbar hanya muncul jika dibutuhkan */
+}
+
+.MAIN-CONTAINER {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh; /* Gunakan min-height untuk memastikan konten tetap terlihat */
+  width: 100vw;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.CAM-CONTAINER {
+  width: 25px;
+  height: 25px;
+  border: 3px solid #007BFF;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  overflow: hidden;
+  opacity: 100%;
+  margin: 2px;
+}
+
+.CAM {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scaleX(-1);
+}
+
+.FORM-CONTAINER {
+  background-color: rgba(1,255,241,0.2);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%; /* Gunakan persentase untuk lebar */
+  max-width: 400px; /* Atur lebar maksimal */
+  padding: 20px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px #ffffff;
+  z-index: 1;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.LOGO {
+  background-color: #fff;
+  background-image: url('https://k.top4top.io/p_3535ny66o0.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.WHOAMI, .MSG {
+  font-family: "Orbitron";
+  color: #ffffff;
+  text-shadow: 0 0 15px #02ff2f;
+  letter-spacing: 2px;
+  margin: 5px 0;
+  word-wrap: break-word; /* Memastikan teks tidak melebihi lebar kontainer */
+}
+
+.WHOAMI {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.MSG {
+  font-size: 1rem;
+}
+
+.USERX, .PASSX {
+  background-color: #000;
+  border-radius: 5px;
+  border: 2px solid #00ffea;
+  font-family: "Iceland";
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 8px #02ff2f;
+  letter-spacing: 1px;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.PASSWORD-GROUP {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.PASSX {
+  margin: 0 5px 0 0;
+  flex-grow: 1;
+}
+
+.USERX:focus, .PASSX:focus {
+  outline: none;
+  border-color: #02ff2f;
+  box-shadow: 0 0 10px #02ff2f;
+}
+
+.SHOW-BTN {
+  background-color: #16fffc;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: "Iceland";
+  font-size: 0.8rem;
+  color: #000000;
+  cursor: pointer;
+  transition: background 3s;
+}
+
+.SHOW-BTN:hover {
+  background: #16fffc;
+  color: #fff;
+}
+
+.SHOW-BTN.active {
+  background: #6400ef;
+  color: #000;
+}
+
+.SIGNX {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #16fffc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Iceland";
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: background 0.3s;
+}
+
+.SIGNX:hover {
+  background: #7d1aff9b;
+}
