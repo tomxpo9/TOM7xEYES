@@ -1,5 +1,5 @@
 const characters = '. -0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!';
-const targetText = "TOM7.NET";
+const targetText = "Welcome To TOM7.NET";
 const container = document.getElementById("MATRIX");
 function animateChar(targetChar, index) {
   const span = document.createElement("span");
