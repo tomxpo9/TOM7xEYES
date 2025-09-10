@@ -112,7 +112,7 @@ form.addEventListener('submit', async (event) => {
     if (response.ok) {
       alert('Login successful');
       setTimeout(() => {
-        window.location.href = "https://xnxx.com";
+        window.location.href = "https://k.top4top.io/p_3535ny66o0.gif";
       }, 3000);
     } else {
       alert('Login failed');
